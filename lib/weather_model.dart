@@ -14,7 +14,7 @@ class WeatherModel with ChangeNotifier{
   }
 
 
-  int _temperatureValue = 22;
+  int _temperatureValue = 40;
   int get temperatureValue => _temperatureValue;
   set temperatureValue(int newTemperatureValue) {
     _temperatureValue = newTemperatureValue;
